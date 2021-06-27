@@ -6,3 +6,9 @@ db.sqlite3
 *.pyc
 
 collectedstatic/*
+
+implemented_with_original_javascript_turbolink_library/tutorial/db.sqlite3
+
+implemented_with_original_javascript_turbolink_library/tutorial/blog/__pycache__/*
+
+implemented_with_original_javascript_turbolink_library/tutorial/tutorial/__pycache__/*
