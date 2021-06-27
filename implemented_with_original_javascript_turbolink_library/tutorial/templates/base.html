@@ -3,6 +3,8 @@
 <html dir="ltr" lang="en">
   <head>
     <meta charset="utf-8" />
+    <meta name="turbolinks-root" content="/">
+    <meta name="turbolinks-cache-control" content="no-cache">
     <title>{% block title %}django-comments-xtd tutorial{% endblock %}</title>
     <link 
       rel="stylesheet" 
@@ -10,6 +12,8 @@
       integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" 
       crossorigin="anonymous">
     <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+    <script type="text/javascript" src="{% static 'js/turbolinks.js' %}"></script>
+    <script type="module" src="{% static 'js/application.js' %}" data-turbolinks-eval="false"></script>
     <style>
       .container {
         width: auto;
